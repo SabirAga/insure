@@ -40,14 +40,14 @@ export const Body = () => {
                         </li>
                     ))}
                 </div>
-                <div className="bg-[#2D2641] h-[250px] py-[69px] px-[81px] text-white mt-[130px] relative">
+                <div className="bg-[#2D2641] h-[250px] py-[69px] px-[81px] text-white mt-[150px] relative">
                     <div className="flex items-center justify-between">
                         <div className="font-dm font-bold text-[56px] grid gap-y-0">
                             <h1 className="-mb-[1.5rem]">Find out more</h1>
                             <h1>about how we work</h1>
                         </div>
                         <div>
-                            <button className="border-2 relative z-10 border-white py-3 px-6 hover:text-black hover:bg-white">HOW WE WORK</button>
+                            <button className="border-2 relative z-10 border-white py-3 px-6">HOW WE WORK</button>
                         </div>
                     </div>
                     <div className="absolute top-0 right-0">

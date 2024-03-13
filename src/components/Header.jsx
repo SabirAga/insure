@@ -1,4 +1,5 @@
 import { Hero } from "./Hero"
+import { HeroMobile } from "./HeroMobile"
 import { Navbar } from "./Navbar"
 
 export const Header = ()=>{
@@ -7,6 +8,7 @@ export const Header = ()=>{
         <>
         <Navbar />
         <Hero />
+        {/* <HeroMobile /> */}
         </>
     )
 }

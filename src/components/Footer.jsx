@@ -2,7 +2,7 @@ export const Footer = () => {
     return (
         <div className="relative">
             <img src="src/assets/Group 22.png" className="absolute" alt="" />
-            <div className="h-[393px] bg-[#FAFAFA] mt-[150px] px-[165px] py-16 ">
+            <div className="h-[393px] bg-[#FAFAFA] mt-[110px] px-[165px] py-16 ">
                 <div className="flex justify-between items-center relative z-10">
                     <img src="src/assets/INSURE.svg" alt="INSURE" />
                     <ul className="flex justify-between gap-x-4">
