@@ -29,9 +29,10 @@ export const Navbar = () => {
 
     const closed = "text-2xl px-[5.5px] border-2 border-black focus:outline-none text:black"
     const open = "text-2xl px-[10px] border-2 border-black focus:outline-none text:black"
+    
     return (
         <div className="">
-            <div className="flex justify-between items-center px-6 md:px-40 py-7">
+            <div className="flex justify-between items-center px-20 lg:px-40 py-7">
                 <img src="src/assets/INSURE.svg" className="" alt="" />
                 <div className="hidden md:flex justify-between items-center gap-x-7 font-karla text-[13px] text-[#837D88] ">
                     {navs.map(({ id, title, url }) => (

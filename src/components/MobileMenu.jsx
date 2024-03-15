@@ -18,7 +18,7 @@ const navs = [
 
 export const MobileMenu = () => {
     return (
-        <div className= "mobile-menu  bg-[#2C2830] burger-menu fixed w-full h-[587px]  z-50 ">
+        <div className= "mobile-menu  bg-[#2C2830] burger-menu absolute w-full h-[587px]  z-50 ">
             <div className=" relative z-10 flex flex-col pt-10 gap-y-10 text-center text-white font-karla font-bold text-[20px]">
                 {navs.map(({ id, title, url }) => (
                     <li key={id} className="hover:text-black list-none ">

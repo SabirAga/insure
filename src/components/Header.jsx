@@ -8,7 +8,6 @@ export const Header = ()=>{
         <>
         <Navbar />
         <Hero />
-        {/* <HeroMobile /> */}
         </>
     )
 }
