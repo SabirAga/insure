@@ -4,7 +4,7 @@ export const FooterMobile = () => {
             <div className="bg-[#FAFAFA] mt-36 ">
                 <img src="/Group 22.png" className="absolute" alt="" />
                 <div className="relative z-50 grid justify-items-center pt-16">
-                    <img className="" src="src/assets/INSURE.svg" alt="INSURE" />
+                    <img className="" src="/INSURE.svg" alt="INSURE" />
                     <ul className="flex gap-x-4 my-8 ">
                         <a href="#"><img src="/fb.svg" alt="" /></a>
                         <a href="#"><img src="/twitter.svg" alt="" /></a>
