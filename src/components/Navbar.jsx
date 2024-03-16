@@ -33,7 +33,7 @@ export const Navbar = () => {
     return (
         <div className="">
             <div className="flex justify-between items-center px-20 lg:px-40 py-7">
-                <img src="src/assets/INSURE.svg" className="" alt="" />
+                <img src="/INSURE.svg" className="" alt="" />
                 <div className="hidden md:flex justify-between items-center gap-x-7 font-karla text-[13px] text-[#837D88] ">
                     {navs.map(({ id, title, url }) => (
                         <li key={id} className="hover:text-black list-none">

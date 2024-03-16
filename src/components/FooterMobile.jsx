@@ -2,14 +2,14 @@ export const FooterMobile = () => {
     return (
         <>
             <div className="bg-[#FAFAFA] mt-36 ">
-                <img src="src/assets/Group 22.png" className="absolute" alt="" />
+                <img src="/Group 22.png" className="absolute" alt="" />
                 <div className="relative z-50 grid justify-items-center pt-16">
                     <img className="" src="src/assets/INSURE.svg" alt="INSURE" />
                     <ul className="flex gap-x-4 my-8 ">
-                        <a href="#"><img src="src/assets/fb.svg" alt="" /></a>
-                        <a href="#"><img src="src/assets/twitter.svg" alt="" /></a>
-                        <a href="#"><img src="src/assets/pint.svg" alt="" /></a>
-                        <a href="#"><img src="src/assets/inst.svg" alt="" /></a>
+                        <a href="#"><img src="/fb.svg" alt="" /></a>
+                        <a href="#"><img src="/twitter.svg" alt="" /></a>
+                        <a href="#"><img src="/pint.svg" alt="" /></a>
+                        <a href="#"><img src="/inst.svg" alt="" /></a>
                     </ul>
                 </div>
                 <div className="border-b pb-9 border-[#DADADA]"></div>

@@ -1,19 +1,19 @@
 const DIFFERENCES = [
     {
         id: 1,
-        src: "src/assets/circle1.svg",
+        src: "/circle1.svg",
         title: 'Snappy Process',
         description: 'Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.',
     },
     {
         key: 2,
-        src: "src/assets/circle2.svg",
+        src: "/circle2.svg",
         title: 'Affordable Prices',
         description: 'We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.',
     },
     {
         key: 3,
-        src: "src/assets/circle3.svg",
+        src: "/circle3.svg",
         title: 'People First',
         description: 'Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.',
     },
@@ -23,7 +23,7 @@ export const Body = () => {
     return (
         <>
             <div className="mt-[250px] px-[165px]">
-                <img src="src/assets/Rectangle1.png" alt="" />
+                <img src="/Rectangle1.png" alt="" />
                 <div>
                     <h1 className="font-dm text-7xl mt-[50px]">We're different</h1>
                 </div>
@@ -51,7 +51,7 @@ export const Body = () => {
                         </div>
                     </div>
                     <div className="absolute top-0 right-0">
-                        <img className="max-h-full" src="src/assets/Group 10.png" alt="" />
+                        <img className="max-h-full" src="/Group 10.png" alt="" />
                     </div>
                 </div>
             </div>

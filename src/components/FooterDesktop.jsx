@@ -1,15 +1,15 @@
 export const FooterDesktop = () => {
     return (
         <div className="relative">
-            <img src="src/assets/Group 22.png" className="absolute" alt="" />
+            <img src="/Group 22.png" className="absolute" alt="" />
             <div className="h-[393px] bg-[#FAFAFA] mt-[110px] lg:px-[165px] px-20  py-16 ">
                 <div className="flex justify-between items-center relative z-10">
-                    <img src="src/assets/INSURE.svg" alt="INSURE" />
+                    <img src="/INSURE.svg" alt="INSURE" />
                     <ul className="flex justify-between gap-x-4">
-                        <a href="#"><img src="src/assets/fb.svg" alt="" /></a>
-                        <a href="#"><img src="src/assets/twitter.svg" alt="" /></a>
-                        <a href="#"><img src="src/assets/pint.svg" alt="" /></a>
-                        <a href="#"><img src="src/assets/inst.svg" alt="" /></a>
+                        <a href="#"><img src="/fb.svg" alt="" /></a>
+                        <a href="#"><img src="/twitter.svg" alt="" /></a>
+                        <a href="#"><img src="/pint.svg" alt="" /></a>
+                        <a href="#"><img src="/inst.svg" alt="" /></a>
                     </ul>
                 </div>
                 <div className="border-b-2 pb-9 border-[#DADADA]"></div>

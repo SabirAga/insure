@@ -2,11 +2,11 @@ export const HeroDesktop = () => {
     return (
         <>
             <div className="bg-[#2D2641] text-white h-[600px] pl-20 lg:pl-[165px] pt-[105px] relative">
-                <img src="src/assets/Rectangle.png" alt="" />
-                <img className="z-10 absolute lg:right-0 lg:top-0 hidden lg:block" src="src/assets/Group 17.png" alt="" />
+                <img src="/Rectangle.png" alt="" />
+                <img className="z-10 absolute lg:right-0 lg:top-0 hidden lg:block" src="/Group 17.png" alt="" />
                 <div className="z-50 text-wrap">
                     <div className="font-dm text-7xl pt-[63px]  mb-4">
-                        <h1>Humanizng TEST</h1>
+                        <h1>Humanizng</h1>
                         <h1>your insurance.</h1>
                     </div>
                     <div className="font-karla text-base  max-w-[500px] lg:max-w-[540px] ">
@@ -17,7 +17,7 @@ export const HeroDesktop = () => {
                         <img className="z-10 h-[470px] lg:h-fit" src="/Bitmap.jpg" alt="" />
                     </div>
                 </div>
-                <img className="z-10 absolute left-0" src="src/assets/Group 18.png" alt="" />
+                <img className="z-10 absolute left-0" src="/Group 18.png" alt="" />
             </div>
         </>
     )

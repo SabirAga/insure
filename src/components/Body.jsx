@@ -1,19 +1,19 @@
 const DIFFERENCES = [
     {
         id: 1,
-        src: "src/assets/circle1.svg",
+        src: "/circle1.svg",
         title: 'Snappy Process',
         description: 'Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.',
     },
     {
         id: 2,
-        src: "src/assets/circle2.svg",
+        src: "/circle2.svg",
         title: 'Affordable Prices',
         description: 'We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.',
     },
     {
         id: 3,
-        src: "src/assets/circle3.svg",
+        src: "/circle3.svg",
         title: 'People First',
         description: 'Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.',
     },
@@ -25,12 +25,12 @@ export const Body = () => {
         <>
             <div className="px-6 mt-[200px] md:px-20 lg:px-[165px] text-center md:text-center">
                 <div className="grid justify-items-center md:justify-items-stretch">
-                    <img src="src/assets/Rectangle1.png" className="mx-auto  lg:left-[165px]" alt="" />
+                    <img src="/Rectangle1.png" className="mx-auto  lg:left-[165px]" alt="" />
                     <div className="mb-20">
                         <h1 className="text-5xl font-dm md:text-7xl mt-[50px] lg:text-start">We're different</h1>
                     </div>
                     <div className="">
-                        <div className="mt-[50px] md:grid md:grid-cols-2 md:text-center lg:flex lg:justify-between  ">
+                        <div className="mt-[50px] md:grid md:grid-cols-2 md:text-center lg:flex lg:justify-between lg:text-start  ">
                             {DIFFERENCES.map(({ id, src, title, description }) => (
                                 <li className={`list-none w-[350px] grid justify-items-center lg:justify-items-start ${(id === 1) ? 'col-start-1 row-start-1' : (id === 2 ) ? 'col-start-3 row-start-1' : (id === 3) ? 'col-start-2 row-start-2' : ''}`} key={id}>
                                     <div>
@@ -54,7 +54,7 @@ export const Body = () => {
                             </div>
                         </div>
                         <div className="absolute top-0 md:right-0">
-                            <img className="h-[344px] lg:h-fit md:max-h-full" src="src/assets/Group 10.png" alt="" />
+                            <img className="h-[344px] lg:h-fit md:max-h-full" src="/Group 10.png" alt="" />
                         </div>
                     </div>
                 </div>

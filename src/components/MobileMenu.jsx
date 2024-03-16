@@ -27,7 +27,7 @@ export const MobileMenu = () => {
                 ))}
                 <a href="#" className="border w-[323px] mx-auto py-3 border-white hover:text-black hover:bg-white">VIEW PLANS</a>
             </div>
-            <img src="src/assets/GroupMobile.png" className="bottom-0 absolute w-screen max-h-[200px]" alt="" />
+            <img src="/GroupMobile.png" className="bottom-0 absolute w-screen max-h-[200px]" alt="" />
         </div>
     )
 }
