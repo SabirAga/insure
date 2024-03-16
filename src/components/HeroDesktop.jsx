@@ -14,7 +14,7 @@ export const HeroDesktop = () => {
                         <button className="mt-7 p border border-white px-7 py-3 z-10 hover:text-black hover:bg-white">VIEW PLANS</button>
                     </div>
                     <div className="absolute top-16  right-4 lg:right-[165px] lg:top-[105px]">
-                        <img className="z-10 h-[470px] lg:h-fit" src="public/Bitmap.jpg" alt="" />
+                        <img className="z-10 h-[470px] lg:h-fit" src="/Bitmap.jpg" alt="" />
                     </div>
                 </div>
                 <img className="z-10 absolute left-0" src="src/assets/Group 18.png" alt="" />
